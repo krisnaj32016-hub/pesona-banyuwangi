@@ -1,0 +1,195 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #1a1a1a;
+}
+
+/* Header */
+header {
+  background-color: #2e2b73;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+}
+header h1 {font-size:20px;}
+header .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+header .logo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 14px;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    background-color: #272470;
+}
+
+.hero-image img {
+    width: 380px;
+    border-radius: 10px;
+    border: 10px solid white;
+}
+
+.hero-text {
+    margin-left: 40px;
+    color: white;
+}
+
+.hero-text h2 {
+    font-size: 52px;
+    margin-bottom: 10px;
+}
+
+/* Deskripsi */
+.deskripsi {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 80px;
+}
+
+.deskripsi .text {
+  width: 55%;
+  background-color: #2e2b73;
+  color: white;
+  padding: 30px;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.deskripsi .image img {
+  width: 300px;
+  border-radius: 4px;
+}
+
+/* Lokasi Section */
+.lokasi {
+  padding: 60px 80px;
+  
+}
+
+.lokasi h3 {
+  font-size: 22px;
+  color: #2e2b73;
+  margin-bottom: 30px;
+}
+
+.lokasi-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.lokasi-img {
+  text-align: center;
+}
+.akses{
+   text-decoration: none; /* Menghilangkan underline default */
+}
+.akses:hover {
+    text-decoration: underline; /* Tambahkan underline saat hover untuk interaktivitas */
+}
+.lokasi-img img {
+  width: 300px;
+    border-radius: 10px;
+}
+
+.lokasi-text {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #272470;
+}
+
+/* Gambar bawah */
+.gambar-bawah {
+  padding: 60px 80px;
+}
+
+.gambar-bawah img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+/* Footer */
+footer {
+  background-color: #2e2b73;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+footer .logo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+/* dropdown*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  color: white; /* Sesuaikan dengan tema */
+  text-decoration: none;
+  padding: 10px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #272470;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: grey;
+}
+
+.show {
+  display: block;
+}
